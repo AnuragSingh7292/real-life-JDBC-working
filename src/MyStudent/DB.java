@@ -13,7 +13,7 @@ public class DB {
         // close connection
         String url = "jdbc:mysql://localhost:3306/mydatabase";
         String userName = "root";
-        String pass = "Axyz@121";
+        String pass = "-------"; // add your password
         Connection con = DriverManager.getConnection(url,userName,pass);
         return con;
     }
